@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Design_Pattern_Practice/1.0.0": {
+        "dependencies": {
+          "Factory": "1.0.0",
+          "MiddleLayer": "1.0.0"
+        },
+        "runtime": {
+          "Design_Pattern_Practice.dll": {}
+        }
+      },
+      "Factory/1.0.0": {
+        "dependencies": {
+          "MiddleLayer": "1.0.0"
+        },
+        "runtime": {
+          "Factory.dll": {}
+        }
+      },
+      "MiddleLayer/1.0.0": {
+        "runtime": {
+          "MiddleLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Design_Pattern_Practice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiddleLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

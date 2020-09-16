@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Design_Pattern_Practice.CreationalPattern.SingletonPattern.Eager;
+using Design_Pattern_Practice.CreationalPattern.SingletonPattern.Lazy;
+using Design_Pattern_Practice.StructuralPattern.DecoratorPattern;
+using Factory;
+using System;
 
 namespace Design_Pattern_Practice
 {
@@ -6,7 +10,12 @@ namespace Design_Pattern_Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            StoreEncryptedCredentials( new CompressedCloudStream( new EncryptedCloudStream(new CloudStream())));
+        }
+
+        public static void StoreEncryptedCredentials(IStream stream)
+        {
+            stream.Write("123456");
         }
     }
 }

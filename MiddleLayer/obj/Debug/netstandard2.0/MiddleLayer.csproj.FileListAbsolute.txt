@@ -1,0 +1,9 @@
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\bin\Debug\netstandard2.0\MiddleLayer.deps.json
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\bin\Debug\netstandard2.0\MiddleLayer.dll
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\bin\Debug\netstandard2.0\MiddleLayer.pdb
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.csprojAssemblyReference.cache
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.AssemblyInfoInputs.cache
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.AssemblyInfo.cs
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.csproj.CoreCompileInputs.cache
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.dll
+C:\Users\taofeeal\source\repos\Design_Pattern_Practice\MiddleLayer\obj\Debug\netstandard2.0\MiddleLayer.pdb

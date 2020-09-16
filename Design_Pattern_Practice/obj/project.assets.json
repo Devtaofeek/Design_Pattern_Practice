@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MiddleLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.dll": {}
+        }
+      },
+      "MiddleLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MiddleLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Factory/1.0.0": {
+      "type": "project",
+      "path": "../Factory/Factory.csproj",
+      "msbuildProject": "../Factory/Factory.csproj"
+    },
+    "MiddleLayer/1.0.0": {
+      "type": "project",
+      "path": "../MiddleLayer/MiddleLayer.csproj",
+      "msbuildProject": "../MiddleLayer/MiddleLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Factory >= 1.0.0",
+      "MiddleLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\taofeeal\\.nuget\\packages\\": {},
@@ -40,7 +78,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\taofeeal\\source\\repos\\Design_Pattern_Practice\\Factory\\Factory.csproj": {
+              "projectPath": "C:\\Users\\taofeeal\\source\\repos\\Design_Pattern_Practice\\Factory\\Factory.csproj"
+            },
+            "C:\\Users\\taofeeal\\source\\repos\\Design_Pattern_Practice\\MiddleLayer\\MiddleLayer.csproj": {
+              "projectPath": "C:\\Users\\taofeeal\\source\\repos\\Design_Pattern_Practice\\MiddleLayer\\MiddleLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
